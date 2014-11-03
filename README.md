@@ -1,4 +1,6 @@
-# grunt-contrib-gorun v0.1.0 [![Build Status: Linux](https://travis-ci.org/gruntjs/grunt-contrib-gorun.png?branch=master)](https://travis-ci.org/gruntjs/grunt-contrib-gorun)
+# grunt-contrib-gorun v0.1.0 
+
+[![Build Status](https://travis-ci.org/jadekler/git-grunt-gorun.svg)](https://travis-ci.org/jadekler/git-grunt-gorun)
 
 > Compile Go files
 
