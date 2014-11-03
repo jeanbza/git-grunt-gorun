@@ -1,0 +1,61 @@
+{
+  "name": "grunt-contrib-gorun",
+  "description": "Compile Go files",
+  "version": "0.1.0",
+  "author": {
+    "name": "Jean de Klerk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gruntjs/grunt-contrib-gorun.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gruntjs/grunt-contrib-gorun/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/gruntjs/grunt-contrib-gorun/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "chalk": "~0.4.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.4.0",
+    "grunt-contrib-internal": "~0.4.10",
+    "grunt": "~0.4.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.0"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "files": [
+    "tasks",
+    "LICENSE-MIT"
+  ],
+  "_id": "grunt-contrib-gorun@0.1.0",
+  "_from": "grunt-contrib-gorun@~0.1.0",
+  "_npmVersion": "1.4.3",
+  "_npmUser": {
+    "name": "jadekler",
+    "email": "jadekler@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "Jean de Klerk",
+      "email": "jadeklere@gmail.com"
+    }
+  ],
+  "readme": "ERROR: No README data found!"
+}
