@@ -31,12 +31,6 @@ Run Go programs inline as a Grunt task.
 
 ###### src
 Set to your go file with func main().
-
-###### dest
-The destination binary (with binary name included).
-
-###### goarch and goos
-The architecture / OS to build for. See [the chart here](https://golang.org/doc/install/source) for reference. Leave undefined for the default architecture / OS on your system.
 ### Usage Examples
 
 #### Basic compilation
@@ -57,4 +51,4 @@ gobuild: {
 
 Task submitted by [Jean de Klerk](jeandeklerk.com)
 
-*This file was generated on Tue Nov 04 2014 20:32:06.*
+*This file was generated on Tue Nov 04 2014 20:32:42.*
