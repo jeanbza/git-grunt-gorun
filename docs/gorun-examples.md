@@ -14,16 +14,3 @@ gobuild: {
   }
 }
 ```
-
-## Compile with goarch and goos
-
-```javascript
-gobuild: {
-  first: {
-    src: "main.go",
-    dest: "my_executable.exe",
-    goarch: 386,
-    goos: windows
-  }
-}
-```

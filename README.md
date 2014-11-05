@@ -1,6 +1,4 @@
-# grunt-contrib-gorun v0.1.0 
-
-[![Build Status](https://travis-ci.org/jadekler/git-grunt-gorun.svg)](https://travis-ci.org/jadekler/git-grunt-gorun)
+# grunt-contrib-gorun v0.1.0 [![Build Status: Linux](https://travis-ci.org/gruntjs/grunt-contrib-gorun.png?branch=master)](https://travis-ci.org/gruntjs/grunt-contrib-gorun)
 
 > Compile Go files
 
@@ -56,26 +54,12 @@ gobuild: {
 }
 ```
 
-#### Compile with goarch and goos
-
-```javascript
-gobuild: {
-  first: {
-    src: "main.go",
-    dest: "my_executable.exe",
-    goarch: 386,
-    goos: windows
-  }
-}
-```
-
 ## Release History
 
- * 2014-10-13   v0.2.0   Formally changed the project to gobuild, and split out [gorun to separate project](git@github.com:jadekler/git-grunt-gorun.git).
- * 2014-10-13   v0.1.0   Initial commit with basic functionality - Go Build.
+ * 2014-10-13   v0.1.0   Initial commit with basic functionality - Go Run.
 
 ---
 
 Task submitted by [Jean de Klerk](jeandeklerk.com)
 
-*This file was generated on Mon Nov 03 2014 12:46:43.*
+*This file was generated on Tue Nov 04 2014 20:30:55.*
