@@ -1,6 +1,6 @@
 # grunt-contrib-gorun v0.1.0 [![Build Status: Linux](https://travis-ci.org/gruntjs/grunt-contrib-gorun.png?branch=master)](https://travis-ci.org/gruntjs/grunt-contrib-gorun)
 
-> Compile Go files
+> Run Go programs
 
 
 
@@ -51,4 +51,4 @@ gorun: {
 
 Task submitted by [Jean de Klerk](jeandeklerk.com)
 
-*This file was generated on Tue Nov 04 2014 20:35:14.*
+*This file was generated on Tue Nov 04 2014 20:36:48.*
