@@ -1,5 +1,5 @@
 {
-  "name": "grunt-contrib-gorun",
+  "name": "git-grunt-gorun",
   "description": "Run Go programs",
   "version": "0.1.0",
   "author": {
@@ -7,15 +7,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/gruntjs/grunt-contrib-gorun.git"
+    "url": "git://github.com/gruntjs/git-grunt-gorun.git"
   },
   "bugs": {
-    "url": "https://github.com/gruntjs/grunt-contrib-gorun/issues"
+    "url": "https://github.com/gruntjs/git-grunt-gorun/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/gruntjs/grunt-contrib-gorun/blob/master/LICENSE-MIT"
+      "url": "https://github.com/gruntjs/git-grunt-gorun/blob/master/LICENSE-MIT"
     }
   ],
   "engines": {
@@ -44,8 +44,8 @@
     "tasks",
     "LICENSE-MIT"
   ],
-  "_id": "grunt-contrib-gorun@0.1.0",
-  "_from": "grunt-contrib-gorun@~0.1.0",
+  "_id": "git-grunt-gorun@0.1.0",
+  "_from": "git-grunt-gorun@~0.1.0",
   "_npmVersion": "1.4.3",
   "_npmUser": {
     "name": "jadekler",
