@@ -1,6 +1,6 @@
 {
   "name": "grunt-contrib-gorun",
-  "description": "Compile Go files",
+  "description": "Run Go programs",
   "version": "0.1.0",
   "author": {
     "name": "Jean de Klerk"
