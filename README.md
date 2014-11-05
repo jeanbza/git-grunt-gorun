@@ -44,12 +44,7 @@ The architecture / OS to build for. See [the chart here](https://golang.org/doc/
 ```javascript
 gobuild: {
   first: {
-    src: "main.go",
-    dest: "binary_one"
-  },
-  second: {
-    src: "some/location/other.go",
-    dest: "/tmp/binary_two"
+    src: "main.go"
   }
 }
 ```
@@ -62,4 +57,4 @@ gobuild: {
 
 Task submitted by [Jean de Klerk](jeandeklerk.com)
 
-*This file was generated on Tue Nov 04 2014 20:30:55.*
+*This file was generated on Tue Nov 04 2014 20:32:06.*
