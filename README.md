@@ -36,7 +36,7 @@ Set to your go file with func main().
 #### Basic compilation
 
 ```javascript
-gobuild: {
+gorun: {
   first: {
     src: "main.go"
   }
@@ -51,4 +51,4 @@ gobuild: {
 
 Task submitted by [Jean de Klerk](jeandeklerk.com)
 
-*This file was generated on Tue Nov 04 2014 20:32:42.*
+*This file was generated on Tue Nov 04 2014 20:35:14.*

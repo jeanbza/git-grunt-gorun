@@ -3,7 +3,7 @@
 ## Basic compilation
 
 ```javascript
-gobuild: {
+gorun: {
   first: {
     src: "main.go"
   }

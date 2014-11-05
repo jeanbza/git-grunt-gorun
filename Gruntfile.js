@@ -15,32 +15,6 @@ module.exports = function(grunt) {
       }
     },
 
-    gobuild: {
-      basic: {
-        src: 'test/fixtures/gobuild_basic.go',
-        dest: 'test/tmp/gobuild_basic'
-      },
-      goarch1: {
-        src: 'test/fixtures/goarch.go',
-        dest: 'test/tmp/goarch1',
-        goarch: '386'
-      },
-      goarch2: {
-        src: 'test/fixtures/goarch.go',
-        dest: 'test/tmp/goarch2',
-        goarch: 'amd64'
-      },
-      goos1: {
-        src: 'test/fixtures/goos.go',
-        dest: 'test/tmp/goos1',
-        goos: 'darwin'
-      },
-      goos2: {
-        src: 'test/fixtures/goos.go',
-        dest: 'test/tmp/goos2.exe',
-        goos: 'windows'
-      }
-    },
     gorun: {
       basic: {
         src: 'test/fixtures/gorun_basic.go'
