@@ -5,7 +5,6 @@ var spawn = require('child_process').spawn;
 var fs = require('fs');
 
 module.exports = function(grunt) {
-    var pidFile = "gorun.pid";
     var opts = {
         stdout: function (data) {
             grunt.log.writeln(data);
