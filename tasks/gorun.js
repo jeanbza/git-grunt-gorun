@@ -23,7 +23,6 @@ module.exports = function(grunt) {
         process.env.GOOS="darwin";
 
         var proc = spawn('go', ['run', src], opts);
-        proc.unref();
 
         done();
     });

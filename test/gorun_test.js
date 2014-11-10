@@ -16,18 +16,20 @@ exports.gorun = {
             path: '/foo'
         };
 
-        http.get(options, function(res) {
-            test.equal(expectedCode, res.statusCode, 'should run and be able to curl running program and receive '+expectedCode+' - instead received '+res.StatusCode);
+        setTimeout(function() {
+            http.get(options, function(res) {
+                test.equal(expectedCode, res.statusCode, 'should run and be able to curl running program and receive '+expectedCode+' - instead received '+res.StatusCode);
 
-            res.setEncoding('utf8');
-            res.on('data', function (data) {
-                test.equal(expectedBody, data, 'should run and be able to curl running program and receive '+expectedBody+' - instead received '+data);
+                res.setEncoding('utf8');
+                res.on('data', function (data) {
+                    test.equal(expectedBody, data, 'should run and be able to curl running program and receive '+expectedBody+' - instead received '+data);
+                    test.done();
+                });
+            }).on('error', function(e) {
+                test.equal(false, true, 'Got error: ' + e);
+                test.equal(false, true, "Second assertion failed because couldn't connect to running go program.");
                 test.done();
             });
-        }).on('error', function(e) {
-            test.equal(false, true, 'Got error: ' + e);
-            test.equal(false, true, "Second assertion failed because couldn't connect to running go program.");
-            test.done();
-        });
+        }, 1000);
     }   
 };
