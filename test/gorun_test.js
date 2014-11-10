@@ -30,6 +30,6 @@ exports.gorun = {
                 test.equal(false, true, "Second assertion failed because couldn't connect to running go program.");
                 test.done();
             });
-        }, 1000);
+        }, 5000);
     }   
 };
