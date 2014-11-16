@@ -2,7 +2,6 @@
 
 var chalk = require('chalk');
 var spawn = require('child_process').spawn;
-var fs = require('fs');
 
 module.exports = function(grunt) {
     var opts = {
