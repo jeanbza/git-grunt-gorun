@@ -19,7 +19,8 @@ module.exports = function(grunt) {
         var done = this.async();
         var src = this.data.src;
         var commandText = "go run "+src;
-        process.env.GOOS="darwin";
+
+        process.env.GOOS="linux";
 
         var proc = spawn('go', ['run', src], opts);
 
