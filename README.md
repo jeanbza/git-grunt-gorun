@@ -1,4 +1,4 @@
-# git-grunt-gorun v0.1.0 
+# git-grunt-gorun v0.1.0
 
 [![Build Status](https://travis-ci.org/jadekler/git-grunt-gorun.svg)](https://travis-ci.org/jadekler/git-grunt-gorun)
 
@@ -53,4 +53,4 @@ gorun: {
 
 Task submitted by [Jean de Klerk](jeandeklerk.com)
 
-*This file was generated on Tue Nov 04 2014 20:41:33.*
+*This file was generated on Mon Nov 17 2014 12:40:29.*

@@ -20,10 +20,11 @@ module.exports = function(grunt) {
         var src = this.data.src;
         var commandText = "go run "+src;
 
-        process.env.GOOS="linux";
+        grunt.log.writeln("go run "+chalk.cyan(src));
 
-        var proc = spawn('go', ['run', src], opts);
-
-        done();
+        setTimeout(function() {
+            spawn('go', ['run', src], opts);
+            done();
+        }, 1000);
     });
 };
