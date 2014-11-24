@@ -1,3 +1,8 @@
+v0.2.1:
+  date: 2014-11-24
+  changes:
+    - Fixed package.json to point to correct repo.
+
 v0.2.0:
   date: 2014-11-23
   changes:
