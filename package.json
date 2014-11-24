@@ -1,7 +1,7 @@
 {
   "name": "git-grunt-gorun",
   "description": "Run Go programs",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "author": {
     "name": "Jean de Klerk"
   },
@@ -56,6 +56,5 @@
       "name": "Jean de Klerk",
       "email": "jadeklere@gmail.com"
     }
-  ],
-  "readme": "ERROR: No README data found!"
+  ]
 }

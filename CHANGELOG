@@ -1,3 +1,8 @@
+v0.2.3:
+  date: 2014-11-24
+  changes:
+    - Actually removed README from package.json.
+
 v0.2.2:
   date: 2014-11-24
   changes:

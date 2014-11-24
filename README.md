@@ -1,4 +1,4 @@
-# git-grunt-gorun v0.2.2
+# git-grunt-gorun v0.2.3
 
 [![Build Status](https://travis-ci.org/jadekler/git-grunt-gorun.svg)](https://travis-ci.org/jadekler/git-grunt-gorun)
 
@@ -64,6 +64,7 @@ gorun: {
 
 ## Release History
 
+ * 2014-11-24   v0.2.3   Actually removed README from package.json.
  * 2014-11-24   v0.2.2   Removed README from package.json.
  * 2014-11-24   v0.2.1   Fixed package.json to point to correct repo.
  * 2014-11-23   v0.2.0   Added support for run time flags.
@@ -73,4 +74,4 @@ gorun: {
 
 Task submitted by [Jean de Klerk](jeandeklerk.com)
 
-*This file was generated on Mon Nov 24 2014 08:00:47.*
+*This file was generated on Mon Nov 24 2014 08:03:13.*
