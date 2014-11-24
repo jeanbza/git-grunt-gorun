@@ -44,8 +44,8 @@
     "tasks",
     "LICENSE-MIT"
   ],
-  "_id": "git-grunt-gorun@0.1.0",
-  "_from": "git-grunt-gorun@~0.1.0",
+  "_id": "git-grunt-gorun@0.2.3",
+  "_from": "git-grunt-gorun@~0.2.3",
   "_npmVersion": "1.4.3",
   "_npmUser": {
     "name": "jadekler",
