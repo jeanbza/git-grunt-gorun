@@ -18,12 +18,17 @@ module.exports = function(grunt) {
     grunt.registerMultiTask('gorun', 'Run Go programs.', function() {
         var done = this.async();
         var src = this.data.src;
-        var commandText = "go run "+src;
+        var flags = this.data.flags;
+        var args = ['run', src];
+
+        for (var key in flags) {
+            args.push("--"+key+"="+flags[key]);
+        }
 
         grunt.log.writeln("go run "+chalk.cyan(src));
 
         setTimeout(function() {
-            spawn('go', ['run', src], opts);
+            spawn('go', args, opts);
             done();
         }, 1000);
     });

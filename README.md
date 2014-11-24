@@ -47,10 +47,11 @@ gorun: {
 
 ## Release History
 
+ * 2014-11-23   v0.2.0   Added support for run time flags.
  * 2014-10-13   v0.1.0   Initial commit with basic functionality - Go Run.
 
 ---
 
 Task submitted by [Jean de Klerk](jeandeklerk.com)
 
-*This file was generated on Mon Nov 17 2014 12:40:29.*
+*This file was generated on Sun Nov 23 2014 20:24:59.*

@@ -18,6 +18,13 @@ module.exports = function(grunt) {
     gorun: {
       basic: {
         src: 'test/fixtures/gorun_basic.go'
+      },
+      basic_flags: {
+        src: 'test/fixtures/gorun_flags.go',
+        flags: {
+          port: 3002,
+          out: "bam"
+        }
       }
     },
 
