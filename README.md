@@ -1,4 +1,4 @@
-# git-grunt-gorun v0.1.0
+# git-grunt-gorun v0.2.0
 
 [![Build Status](https://travis-ci.org/jadekler/git-grunt-gorun.svg)](https://travis-ci.org/jadekler/git-grunt-gorun)
 
@@ -33,14 +33,31 @@ Run Go programs inline as a Grunt task.
 
 ###### src
 Set to your go file with func main().
+
+###### flags
+Hash of runtime flags.
 ### Usage Examples
 
-#### Basic compilation
+#### Basic running
 
 ```javascript
 gorun: {
   first: {
     src: "main.go"
+  }
+}
+```
+
+#### Running with flags
+
+```javascript
+gorun: {
+  first: {
+    src: "main.go"
+  },
+  flags: {
+    boom: "bam",
+    foo: 5
   }
 }
 ```
@@ -54,4 +71,4 @@ gorun: {
 
 Task submitted by [Jean de Klerk](jeandeklerk.com)
 
-*This file was generated on Sun Nov 23 2014 20:24:59.*
+*This file was generated on Sun Nov 23 2014 20:27:41.*
